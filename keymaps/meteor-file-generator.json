@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-n ctrl-m": "meteor-file-generator:toggle",
+    "escape": "core:cancel",
+    "enter": "core:confirm"
+  }
+}

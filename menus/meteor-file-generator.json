@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle meteor-file-generator",
+        "command": "meteor-file-generator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "meteor-file-generator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "meteor-file-generator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
