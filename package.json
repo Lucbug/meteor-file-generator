@@ -5,11 +5,6 @@
   "description": "Automatically create meteor files. This package will help you generate starting files for your templates by creating both HTML and JS files with the name of the template you want.",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": {
-        "ctrl-shift-m" : "meteor-file-generator:toggle"
-    }
-  },
   "repository": "https://github.com/Lucbug/meteor-file-generator",
   "license": "MIT",
   "engines": {
@@ -18,5 +13,12 @@
   "dependencies": {
     "mkdirp": "0.3.5",
     "touch": "3.1.0"
+  },
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
   }
 }
